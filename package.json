@@ -27,7 +27,7 @@
     "release": "node scripts/release.js patch",
     "release:minor": "node scripts/release.js minor",
     "release:major": "node scripts/release.js major",
-    "serve:simple": "SIMPLE_MODE=true npm run build && npm run preview -- --port 3000",
+    "serve:simple": "set SIMPLE_MODE=true npm run build && npm run preview -- --port 3000",
     "serve": "npm run build && npm run preview -- --port 3000",
     "package": "node scripts/package-dist.js",
     "docs:dev": "vitepress dev docs --port 5174",
