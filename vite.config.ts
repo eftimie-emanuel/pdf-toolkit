@@ -10,6 +10,7 @@ import handlebars from 'vite-plugin-handlebars';
 import { resolve } from 'path';
 import fs from 'fs';
 import { createHash } from 'crypto';
+import 'dotenv/config';
 
 function engineVersion(): string {
   try {
